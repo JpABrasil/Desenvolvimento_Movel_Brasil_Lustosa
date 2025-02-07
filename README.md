@@ -20,7 +20,12 @@ Essa seção tem como objetivo deixar guardado explicações sobre como a estrut
 				* mipmap - Ícones do aplicativo em diferentes resoluções
 				* values - Definições reutilizaveis, cores, strings, estilos
 			* AndroidManifest.xml - Declara informações do aplicativo, como permissões e atividades
-		* build.gradle - Arquivo de configuração especifico do módulo app
+		* build.gradle - Arquivo de configuração especifico do módulo app 
+## Activities:
+Toda Activity segue a Lógica:
+1. Arquivo .kt (Kotlin) → Lógica da tela
+2. Arquivo .xml (Layout) → Interface gráfica da tela
+3. AndroidManifest.xml → Declara a Activity para o sistema
 
 ## Funcionamento:
 ### Iniciando Tela Inicial:
